@@ -54,7 +54,7 @@ python3 script.py <image_path>
 
 Replace `<image_path>` with the path to your image file.
 
-### Display Help
+### Commands 
 To view help information about the script:
 
 ```bash
@@ -66,10 +66,20 @@ or
 ```bash
 python3 script.py --help
 ```
+
+To save output in a seperate txt file:
+
+```bash
+python3 script.py /home/path/image.png -o output.txt
+```
+
 ### Example
 ```bash
 python3 script.py sample_image.png
 ```
+
+```bash
+python3 script.py sample_image.png -o output.txt
 
 ### Notes
 - Ensure Tesseract OCR is correctly installed and added to your system's PATH.
