@@ -80,6 +80,7 @@ python3 script.py sample_image.png
 
 ```bash
 python3 script.py sample_image.png -o output.txt
+```
 
 ### Notes
 - Ensure Tesseract OCR is correctly installed and added to your system's PATH.
